@@ -1,57 +1,79 @@
 import utility
 
+
+# issue 8
 def get_p_upper(letter: str) -> list[str]:
-    return [
-        utility.append_space(utility.repeat_4(letter)),
-        utility.sandwich_3_spaces(letter),
-    ]
+    """
+    returns a list containing the results of 
+    `utility.append_space(utility.repeat_4(letter))` and `utility.sandwich_3_spaces(letter)`
+    """
+    return []
 
 
+# issue 9
 def get_p_lower(letter: str) -> list[str]:
-    return [
-        utility.append_space(utility.repeat_4(letter)),
-        utility.append_4_spaces(letter),
-        utility.append_4_spaces(letter),
-    ]
+    """
+    returns a list containing the results of `utility.append_space(utility.repeat_4(letter))`
+    and two times the result of `utility.append_4_spaces(letter),`
+    """
+    return []
 
 
+# issue 10
 def get_y_upper(letter: str) -> list[str]:
-    return [
-        utility.sandwich_3_spaces(letter),
-        utility.intersperse_spaces(letter),
-    ]
+    """
+    returns a list containing the results of `utility.sandwich_3_spaces(letter)`
+    and `utility.intersperse_spaces(letter)`
+    """
+    return []
 
 
+# issue 11
 def get_y_lower(letter: str) -> list[str]:
-    return [
-        utility.sandwich_letter(letter),
-        utility.sandwich_letter(letter),
-        utility.sandwich_letter(letter),
-    ]
+    """
+    returns a list containing the result of `utility.sandwich_letter(letter)`
+    three times
+    """
+    return []
 
 
+# issue 12
 def get_o_upper(letter: str) -> list[str]:
-    return [
-        utility.sandwich_3_letters(letter),
-        utility.sandwich_3_spaces(letter),
-    ]
+    """
+    returns a list containing the results of `utility.sandwich_3_letters(letter)`
+    and `utility.sandwich_3_spaces(letter)`
+    """
+    return []
 
 
+# issue 13
 def get_o_lower(letter: str) -> list[str]:
-    return [
-        utility.sandwich_3_spaces(letter),
-        utility.sandwich_3_spaces(letter),
-        utility.sandwich_3_letters(letter),
-    ]
+    """
+    returns a list containing the result of `utility.sandwich_3_spaces(letter)` two
+    times and the result of `utility.sandwich_3_letters(letter)`
+    """
+    return []
 
 
+# issue 14
 def get_p(letter: str) -> list[str]:
-    return get_p_upper(letter) + get_p_lower(letter)
+    """
+    returns the sum of get_p_upper(letter) and get_p_lower(letter)
+    """
+    return []
 
 
+# issue 15
 def get_y(letter: str) -> list[str]:
-    return get_y_upper(letter) + get_y_lower(letter)
+    """
+    returns the sum of get_y_upper(letter) and get_y_lower(letter)
+    """
+    return []
 
 
+# issue 16
 def get_o(letter: str) -> list[str]:
-    return get_o_upper(letter) + get_o_lower(letter)
+    """
+    returns the sum of get_o_upper(letter) and get_o_lower(letter)
+    """
+    return []

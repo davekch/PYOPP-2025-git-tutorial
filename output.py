@@ -1,3 +1,5 @@
+# issue 17
 def print_output(lines: list[str]):
-    for line in lines:
-        print(line)
+    """
+    prints each line in `lines`
+    """

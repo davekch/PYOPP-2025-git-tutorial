@@ -2,11 +2,13 @@ import output
 import words
 
 
-
+# issue 18
 def main():
-    lines = words.build_full_output()
-    output.print_output(lines)
+    """
+    call `output.print_output` on the result of `words.build_full_output()`
+    """
 
 
 if __name__ == "__main__":
-    main()
+    # isue 19: call the main function
+    ...
