@@ -68,7 +68,7 @@ def get_y(letter: str) -> list[str]:
     """
     returns the sum of get_y_upper(letter) and get_y_lower(letter)
     """
-    return []
+    return get_y_upper(letter) + get_y_lower(letter)
 
 
 # issue 16
