@@ -7,7 +7,7 @@ def get_p_upper(letter: str) -> list[str]:
     returns a list containing the results of 
     `utility.append_space(utility.repeat_4(letter))` and `utility.sandwich_3_spaces(letter)`
     """
-    return []
+    return [utility.append_space(utility.repeat_4(letter)), utility.sandwich_3_spaces(letter)]
 
 
 # issue 9
