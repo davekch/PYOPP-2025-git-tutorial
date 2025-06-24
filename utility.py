@@ -42,7 +42,7 @@ def intersperse_spaces(letter: str) -> str:
     returns a space, `letter`, space, `letter, space merged in a string
     example: intersperse_spaces("a") should return " a a "
     """
-    return ""
+    return f" {letter} {letter} "
 
 
 # issue 6
