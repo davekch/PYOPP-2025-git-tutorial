@@ -76,4 +76,4 @@ def get_o(letter: str) -> list[str]:
     """
     returns the sum of get_o_upper(letter) and get_o_lower(letter)
     """
-    return []
+    return [get_o_upper(letter) + get_o_lower(letter)]
