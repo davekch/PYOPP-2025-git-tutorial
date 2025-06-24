@@ -49,7 +49,7 @@ def sandwich_letter(letter: str) -> str:
     returns a string consisting of `letter` with two spaces at the beginning and end
     example: sandwich_letter("a") should return "  a  "
     """
-    return ""
+    return "  " + letter + "  "
 
 
 # issue 7
