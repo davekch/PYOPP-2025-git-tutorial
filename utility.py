@@ -31,7 +31,8 @@ def append_4_spaces(word: str) -> str:
     returns `word` with four spaces added at the end
     example: append_4_spaces("abc") should return "abc    "
     """
-    return ""
+    spaces = "    "
+    return word + spaces
 
 
 # issue 5
