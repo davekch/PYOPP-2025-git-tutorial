@@ -22,7 +22,7 @@ def sandwich_3_spaces(letter: str) -> str:
     returns three spaces surrounded by `letter`
     example: sandwich_3_spaces("a") should return "a   a"
     """
-    return ""
+    return f"{letter}   {letter}"
 
 
 # issue 4
