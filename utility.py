@@ -13,7 +13,8 @@ def append_space(word: str) -> str:
     returns `word` with an added space at the end
     example: append_space("abc") should return "abc "
     """
-    return ""
+    word = word + ' '
+    return word
 
 
 # issue 3
