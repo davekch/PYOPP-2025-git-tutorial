@@ -4,7 +4,7 @@ def repeat_4(letter: str) -> str:
     returns a string that consists of four times `letter`
     example: repeat("a") should return "aaaa"
     """
-    return ""
+    return 4 * letter
 
 
 # issue 2
