@@ -34,7 +34,7 @@ def get_y_lower(letter: str) -> list[str]:
     returns a list containing the result of `utility.sandwich_letter(letter)`
     three times
     """
-    return [utility.sandwich_letter(letter)]*3
+    return []
 
 
 # issue 12
@@ -68,7 +68,7 @@ def get_y(letter: str) -> list[str]:
     """
     returns the sum of get_y_upper(letter) and get_y_lower(letter)
     """
-    return []
+    return get_y_upper(letter) + get_y_lower(letter)
 
 
 # issue 16
