@@ -43,7 +43,7 @@ def get_o_upper(letter: str) -> list[str]:
     returns a list containing the results of `utility.sandwich_3_letters(letter)`
     and `utility.sandwich_3_spaces(letter)`
     """
-    return []
+    return [utility.sandwich_3_letters(letter),utility.sandwich_3_spaces(letter)]
 
 
 # issue 13
