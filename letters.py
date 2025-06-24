@@ -34,7 +34,7 @@ def get_y_lower(letter: str) -> list[str]:
     returns a list containing the result of `utility.sandwich_letter(letter)`
     three times
     """
-    return []
+    return [utility.sandwich_letter(letter)]*3
 
 
 # issue 12
