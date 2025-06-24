@@ -11,4 +11,4 @@ def main():
 
 if __name__ == "__main__":
     # isue 19: call the main function
-    ...
+    main()
