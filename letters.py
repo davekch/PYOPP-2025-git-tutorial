@@ -16,7 +16,11 @@ def get_p_lower(letter: str) -> list[str]:
     returns a list containing the results of `utility.append_space(utility.repeat_4(letter))`
     and two times the result of `utility.append_4_spaces(letter),`
     """
-    return []
+
+    letter = utility.append_space(utility.repeat_4(letter))
+    letter = utility.append_4_spaces(letter)
+    letter = utility.append_4_spaces(letter)
+    return letter
 
 
 # issue 10
